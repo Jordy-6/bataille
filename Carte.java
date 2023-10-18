@@ -35,6 +35,8 @@ public class Carte {
     public void setValue(int value) {
         this.value = value;
     }
+
+    // on compare la valeur de la carte 1 à celle de la carte 2
     public static int comparer(Carte carte1, Carte carte2){
         if(carte1.value > carte2.value){
             return 1;

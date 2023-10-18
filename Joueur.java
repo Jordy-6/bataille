@@ -29,6 +29,7 @@ public class Joueur{
     }
 
 
+    //Supprimer une carte d'un paquet
     public void tireCarte(int indice){
         // Créez un nouveau tableau avec une taille réduite d'une unité
         Carte[] nouveauTableau = new Carte[tableau.length - 1];
@@ -47,6 +48,7 @@ public class Joueur{
     }
 
 
+    //ajouter une nouvelle carte au paquet
     public void addCart(Carte[] carte, Carte indiceCarte){
             int nouvelleTaille = carte.length + 1;
             Carte[] nouveauTableau = new Carte[nouvelleTaille];
